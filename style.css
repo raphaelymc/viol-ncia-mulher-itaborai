@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fcfafc;
+  color: #2b1f2b;
+  line-height: 1.6;
+}
+
+.container {
+  width: min(1100px, 90%);
+  margin: 0 auto;
+}
+
+.topo {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e8dfe8;
+  padding: 18px 0;
+}
+
+.topo .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 1.1rem;
+  color: #4b1e46;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #5f4b5f;
+  font-size: 0.95rem;
+}
+
+.menu a:hover {
+  color: #4b1e46;
+}
+
+.hero {
+  padding: 90px 0 100px;
+}
+
+.hero-conteudo {
+  max-width: 760px;
+}
+
+.tag {
+  display: inline-block;
+  margin-bottom: 18px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background-color: #f3e9f3;
+  color: #6b2d64;
+  font-size: 0.9rem;
+}
+
+.hero h2 {
+  font-size: 2.8rem;
+  line-height: 1.2;
+  color: #3f183b;
+  margin-bottom: 18px;
+}
+
+.subtitulo {
+  font-size: 1.1rem;
+  color: #5b4a5b;
+  margin-bottom: 26px;
+  max-width: 680px;
+}
+
+.impacto {
+  font-size: 1.15rem;
+  color: #382838;
+  margin-bottom: 34px;
+  max-width: 680px;
+}
+
+.botoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.botao {
+  display: inline-block;
+  padding: 14px 22px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+.botao-primario {
+  background-color: #6b2d64;
+  color: #ffffff;
+}
+
+.botao-primario:hover {
+  background-color: #572451;
+}
+
+.botao-secundario {
+  background-color: transparent;
+  color: #6b2d64;
+  border: 1px solid #caaeca;
+}
+
+.botao-secundario:hover {
+  background-color: #f7eef7;
+}
+
+@media (max-width: 768px) {
+  .topo .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  .hero {
+    padding: 60px 0 70px;
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+  }
+
+  .subtitulo,
+  .impacto {
+    font-size: 1rem;
+  }
+}
+.dados {
+  padding: 80px 0;
+  background-color: #fcfafc;
+}
+
+.cards {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 28px 20px;
+  border-radius: 12px;
+  border: 1px solid #eee3ee;
+  text-align: center;
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card h4 {
+  font-size: 1rem;
+  color: #5a3f5a;
+  margin-bottom: 10px;
+}
+
+.numero {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #6b2d64;
+}
+
+/* Responsivo */
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+.conscientizacao {
+  padding: 80px 0;
+  background-color: #fcfafc;
+}
+
+.conscientizacao-grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.conscientizacao-card {
+  background-color: #ffffff;
+  border: 1px solid #eee3ee;
+  border-radius: 12px;
+  padding: 28px;
+}
+
+.conscientizacao-card h4 {
+  font-size: 1.1rem;
+  color: #4b1e46;
+  margin-bottom: 16px;
+}
+
+.conscientizacao-card p {
+  color: #4c3e4c;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+  .conscientizacao-grid {
+    grid-template-columns: 1fr;
+  }
+}
+.rodape {
+  margin-top: 60px;
+  padding: 30px 0;
+  background-color: #f5f1f5;
+  border-top: 1px solid #e6dce6;
+}
+
+.rodape .container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.rodape p {
+  color: #5a4a5a;
+  font-size: 0.95rem;
+}
+.observacao-dados {
+  margin-top: 20px;
+  padding: 16px 20px;
+  background-color: #fdf7f7;
+  border-left: 4px solid #8B1E3F;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.observacao-dados strong {
+  display: block;
+  color: #8B1E3F;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
+
+.observacao-dados p {
+  color: #5a4a5a;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.localizacao {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.localizacao-texto {
+  max-width: 760px;
+  color: #4c3e4c;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.mapa-box {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid #eee3ee;
+}

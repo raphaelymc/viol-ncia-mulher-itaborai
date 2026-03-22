@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Violência contra a mulher em Itaboraí</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<header class="topo">
+  <div class="container">
+    <h1 class="logo">Violência contra a mulher em Itaboraí</h1>
+    <nav class="menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#dados">Dados</a>
+      <a href="#apoio">Apoio</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-conteudo">
+      <p class="tag">Projeto informativo e de conscientização</p>
+
+      <h2>Violência contra a mulher em Itaboraí</h2>
+
+      <p class="subtitulo">
+        Dados reais, conscientização e acesso a canais de apoio para a população.
+      </p>
+
+      <p class="impacto">
+        Não deixe a rotina fazer você ignorar um tema tão sério.<br />
+        Olhe ao seu redor, observe, esteja atento.
+      </p>
+
+      <div class="botoes">
+        <a href="#dados" class="botao botao-primario">Ver dados</a>
+        <a href="#apoio" class="botao botao-secundario">Buscar ajuda</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="sobre">
+    <div class="container">
+
+      <div class="secao-topo">
+        <p class="secao-tag">Sobre</p>
+        <h3>Sobre o projeto</h3>
+      </div>
+
+      <div class="sobre-caixa">
+        <p>
+          Este projeto foi desenvolvido com foco no município de Itaboraí (RJ),
+          com o objetivo de transformar dados públicos em informação acessível para a comunidade.
+        </p>
+
+        <p>
+          A proposta surgiu a partir da necessidade de apresentar, de forma clara e responsável,
+          indicadores relacionados à violência contra a mulher, contribuindo para a conscientização social
+          e para o acesso a canais de apoio.
+        </p>
+
+        <p>
+          Os dados utilizados foram obtidos a partir de bases públicas do Instituto de Segurança Pública
+          do Estado do Rio de Janeiro (ISP-RJ), considerando o período de 2016 a 2025.
+        </p>
+
+        <p>
+          Nesse contexto, a tecnologia desempenha um papel fundamental, permitindo que essas informações
+          estejam disponíveis de forma acessível, confiável e organizada, ampliando o alcance da informação
+          e facilitando o entendimento da população.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LOCALIZAÇÃO -->
+  <section class="localizacao">
+    <div class="container">
+
+      <div class="secao-topo">
+        <p class="secao-tag">Localização</p>
+        <h3>Onde fica Itaboraí</h3>
+      </div>
+
+      <p class="localizacao-texto">
+        Este projeto tem como foco o município de Itaboraí, no estado do Rio de Janeiro,
+        reforçando a importância de compreender a realidade local e o papel da informação
+        na conscientização e no apoio à comunidade.
+      </p>
+
+      <div class="mapa-box">
+        <iframe
+          src="https://www.google.com/maps?q=Itaboraí,RJ&output=embed"
+          width="100%"
+          height="380"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DADOS -->
+  <section id="dados" class="dados">
+    <div class="container">
+
+      <div class="secao-topo">
+        <p class="secao-tag">Dados</p>
+        <h3>Dados principais (2016–2025)</h3>
+      </div>
+
+      <!-- OBSERVAÇÃO -->
+      <div class="observacao-dados">
+        <strong>Observação:</strong>
+        <p>
+          Os indicadores de feminicídio e tentativa de feminicídio referem-se diretamente à violência contra a mulher.
+          Já os dados de estupro e ameaça foram incluídos como referência para análise do contexto de violência
+          e não representam, nesta visualização, ocorrências apenas contra mulheres.
+        </p>
+      </div>
+
+      <!-- CARDS -->
+      <div class="cards">
+
+        <div class="card">
+          <h4>Feminicídio</h4>
+          <p class="numero">6</p>
+        </div>
+
+        <div class="card">
+          <h4>Tentativa de feminicídio</h4>
+          <p class="numero">39</p>
+        </div>
+
+        <div class="card">
+          <h4>Estupro</h4>
+          <p class="numero">944</p>
+        </div>
+
+        <div class="card">
+          <h4>Ameaça</h4>
+          <p class="numero">7965</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GRÁFICO -->
+  <section class="graficos">
+    <div class="container">
+
+      <div class="secao-topo">
+        <p class="secao-tag">Visualização</p>
+        <h3>Panorama dos indicadores</h3>
+      </div>
+
+      <div class="grafico-card">
+        <canvas id="graficoViolencia"></canvas>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONSCIENTIZAÇÃO -->
+  <section class="conscientizacao">
+    <div class="container">
+
+      <div class="secao-topo">
+        <p class="secao-tag">Conscientização</p>
+        <h3>Conscientização e apoio</h3>
+      </div>
+
+      <div class="conscientizacao-grid">
+
+        <div class="conscientizacao-card">
+          <h4>Se você está vivendo uma situação de violência</h4>
+          <p>
+            Você não está sozinha. Muitas situações de violência começam de forma silenciosa
+            e podem ser difíceis de enfrentar.
+          </p>
+          <p>
+            Buscar ajuda é um passo importante para sua segurança, sua dignidade e sua vida.
+          </p>
+        </div>
+
+        <div class="conscientizacao-card">
+          <h4>Se você presencia ou suspeita</h4>
+          <p>
+            O silêncio pode manter a violência invisível. Observar, acolher e buscar orientação
+            pode fazer diferença.
+          </p>
+          <p>
+            Uma atitude responsável pode ajudar a interromper um ciclo de violência.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- APOIO -->
+  <section id="apoio" class="apoio">
+    <div class="container">
+
+      <div class="secao-topo">
+        <p class="secao-tag">Apoio</p>
+        <h3>Canais de apoio em Itaboraí</h3>
+      </div>
+
+      <p class="apoio-texto">
+        Em situações de violência, buscar ajuda pode ser decisivo.
+      </p>
+
+      <div class="apoio-grid">
+
+        <div class="apoio-card">
+          <h4>Disque 180</h4>
+          <p class="apoio-numero">180</p>
+        </div>
+
+        <div class="apoio-card">
+          <h4>Emergência</h4>
+          <p class="apoio-numero">190</p>
+        </div>
+
+        <div class="apoio-card">
+          <h4>CEAM</h4>
+          <p class="apoio-numero">(21) 2635-3452</p>
+        </div>
+
+        <div class="apoio-card">
+          <h4>Casa da Mulher</h4>
+          <p class="apoio-numero">(21) 3639-1548</p>
+        </div>
+
+        <div class="apoio-card">
+          <h4>Patrulha Maria da Penha</h4>
+          <p class="apoio-numero">(21) 99139-0728</p>
+        </div>
+
+        <div class="apoio-card">
+          <h4>Delegacia (71ª DP)</h4>
+          <p class="apoio-numero">(21) 3639-1861</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="container">
+    <p>Projeto desenvolvido por Raphaely Magalhães de Oliveira Cordeiro</p>
+    <p>Engenharia de Software • Projeto de Extensão II</p>
+    <p>Dados públicos – ISP-RJ</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
