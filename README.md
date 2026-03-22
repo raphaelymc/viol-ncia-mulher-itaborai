@@ -9,7 +9,7 @@ Projeto desenvolvido com foco em **impacto social**, utilizando tecnologia para 
 
 ## 🌐 Preview do projeto
 
-![Preview do site](preview-do-site.png)
+![Preview do site](preview-site.png)
 
 ---
 
@@ -26,7 +26,7 @@ Os dados utilizados foram obtidos a partir do **Instituto de Segurança Pública
 ## 📊 Visualização dos dados
 
 ### Feminicídio e tentativa de feminicídio
-![Gráfico feminicídio](grafico_feminicidio.png)
+![Gráfico feminicídio](grafico-feminicidio.png)
 
 ### Ameaça e estupro
 ![Gráfico ameaça](grafico-ameaca.png)
@@ -90,7 +90,7 @@ Durante o desenvolvimento deste projeto, foram aplicados conhecimentos como:
 
 ---
 
-## 📌 Autor
+## 📌 Autora
 
 Desenvolvido por **Raphaely Magalhães**
 
