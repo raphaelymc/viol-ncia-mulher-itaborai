@@ -1,6 +1,6 @@
 # 🚺 Violência contra a mulher em Itaboraí
 
-Projeto desenvolvido com foco em **impacto social**, utilizando tecnologia para transformar dados públicos em informação acessível.
+Projeto desenvolvido com foco em impacto social, utilizando tecnologia para transformar dados públicos em informação acessível.
 
 🔗 Acesse o projeto:  
 👉 https://projeto-mulher.raphaely.dev
@@ -9,30 +9,57 @@ Projeto desenvolvido com foco em **impacto social**, utilizando tecnologia para 
 
 ## 🌐 Preview do projeto
 
-![Preview do site](preview-site.png)
+![Preview do site](preview-do-site.png)
 
 ---
 
 ## 📊 Sobre o projeto
 
-Este projeto foi desenvolvido com foco no município de **Itaboraí (RJ)**, com o objetivo de apresentar de forma clara e acessível dados relacionados à violência contra a mulher.
+Este projeto foi desenvolvido com foco no município de Itaboraí (RJ), com o objetivo de apresentar de forma clara e acessível dados relacionados à violência contra a mulher.
 
 A proposta surgiu da necessidade de transformar dados públicos — muitas vezes difíceis de acessar — em uma visualização simples, compreensível e útil para a população.
 
-Os dados utilizados foram obtidos a partir do **Instituto de Segurança Pública do Estado do Rio de Janeiro (ISP-RJ)**, com base em registros oficiais.
+Os dados utilizados foram obtidos a partir do Instituto de Segurança Pública do Estado do Rio de Janeiro (ISP-RJ), com base em registros oficiais.
 
 ---
 
-## 📊 Visualização dos dados
+## 📈 Visualização dos dados
 
-### Feminicídio e tentativa de feminicídio
-![Gráfico feminicídio](grafico-feminicidio.png)
+O projeto apresenta três visualizações principais:
 
-### Ameaça e estupro
-![Gráfico ameaça](grafico-ameaca.png)
+### 🔴 Feminicídio e tentativa de feminicídio
 
-### Visão geral dos crimes
-![Gráfico geral](grafico-violencia.png)
+Dados que representam os casos mais graves de violência contra a mulher.
+
+![Feminicídio](grafico-feminicidio.png)
+
+---
+
+### 🟠 Ameaça e estupro
+
+Dados relacionados aos crimes de ameaça e estupro, com base nos registros oficiais do ISP-RJ.
+
+⚠️ Observação: os dados apresentados referem-se ao total de ocorrências registradas, não sendo possível identificar, em todos os casos, o gênero das vítimas. Ainda assim, esses indicadores são relevantes para compreender o cenário geral de violência.
+
+![Ameaça e Estupro](grafico-ameaca.png)
+
+---
+
+### 📊 Visão geral dos crimes
+
+Gráfico consolidado com os principais tipos de violência analisados no projeto.
+
+![Visão geral](grafico-violencia.png)
+
+---
+
+## 📌 Sobre os dados
+
+Os dados utilizados são provenientes do Instituto de Segurança Pública do Estado do Rio de Janeiro (ISP-RJ).
+
+Alguns indicadores, como ameaça e estupro, representam o total de ocorrências registradas e não possuem detalhamento completo sobre o perfil das vítimas em todas as situações.
+
+Por isso, a interpretação dos dados deve ser feita com responsabilidade.
 
 ---
 
@@ -42,67 +69,28 @@ Os dados utilizados foram obtidos a partir do **Instituto de Segurança Pública
 - CSS
 - JavaScript
 - AWS S3 (Static Website Hosting)
-- AWS CloudFront (CDN global)
-- AWS Certificate Manager (HTTPS)
-- Namecheap (DNS e domínio)
+- AWS CloudFront (CDN)
+- AWS ACM (HTTPS)
 - Git & GitHub
 
 ---
 
-## ☁️ Arquitetura do projeto
+## 💡 Objetivo
 
-O projeto segue uma arquitetura simples em nuvem:
-
-- Front-end estático hospedado no **Amazon S3**
-- Distribuição global via **CloudFront**
-- HTTPS com certificado gerenciado pelo **ACM**
-- Domínio personalizado via **Namecheap**
+Utilizar a tecnologia como ferramenta de impacto social, tornando dados difíceis de acessar em informação simples e disponível para todos.
 
 ---
 
-## 🎯 Objetivo
+## ⚠️ Reflexão
 
-- Facilitar o acesso à informação
-- Conscientizar sobre a violência contra a mulher
-- Incentivar atenção e cuidado com o que acontece ao nosso redor
+Os dados apresentados são alarmantes.
 
----
+Se essa é a realidade de um único município, o que dizer do estado? Do país?
 
-## 💡 Impacto
-
-Os dados apresentados são **reais e preocupantes**.
-
-Se isso já é a realidade em um município, imagine em escala estadual ou nacional.
-
-A tecnologia aqui foi usada como ferramenta de conscientização.
+Precisamos olhar com mais atenção para esses casos e estar atentos ao nosso redor.
 
 ---
 
-## 🚀 Aprendizados
+## 👩‍💻 Autora
 
-Durante o desenvolvimento deste projeto, foram aplicados conhecimentos como:
-
-- Hospedagem de site estático na AWS
-- Configuração de domínio personalizado
-- Distribuição com CDN
-- Implementação de HTTPS
-- Organização e visualização de dados
-
----
-
-## 📌 Autora
-
-Desenvolvido por **Raphaely Magalhães**
-
-💻 Estudante de Engenharia de Software  
-☁️ Foco em Cloud Computing  
-
----
-
-## ❤️ Considerações finais
-
-Esse projeto representa mais do que código.
-
-É a prova de que tecnologia pode ser usada para gerar impacto real na sociedade.
-
-Se puder, acesse e compartilhe 🙏
+Desenvolvido por Raphaely Magalhães
